@@ -1,0 +1,92 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+
+.shortcut{
+  background-color:#e3e4e5;
+  height:30px;
+  border-bottom:1px solid #ddd;
+}
+
+.shortcut-box{
+  width:1190px;
+  margin:0 auto;
+  display:flex;
+  justify-content:space-between;
+}
+
+
+
+.shortcut-box ul li{
+  list-style:none;
+  display:inline-block;
+  line-height:30px;
+  height:30px;
+  padding:0 10px;
+  font-size:12px;
+  position:relative;
+}
+
+.shortcut-box ul li:not(:last-child):after{
+  content:'';
+  width:1px;
+  height:14px;
+  background:#ccc;
+  position:absolute;
+  top:8px;
+  right:0;
+  display:block;
+}
+
+.shortcut-box ul li a{
+  text-decoration:none;
+  color:#999;
+}
+
+.shortcut-box ul li a.important-content{
+ color:#f00;
+}
+
+.shortcut-box ul li a:hover{
+  color:#f00;
+}
+
+.shortcut-btn{
+  position:relative;
+}
+
+.dropdown-layer{
+  position:absolute;
+  left:0;
+  top:30px;
+  width:300px;
+  padding:10px;
+  border:1px solid #ccc;
+  box-shadow:1px 2px 1px rgb(0 0 0 / 10%);
+}
+
+.dropdown-layer>div{
+  float:left;
+  width:60px;
+  padding:2px 0;
+  color:#999;
+}
+
+.dropdown-layer>div a{
+  padding:5px 8px;
+}
+
+.dropdown-layer>div a:hover{
+  background-color:#f4f4f4;
+  cursor:pointer;
+}
+
+.shortcut-btn:hover{
+  border:1px solid #ccc;
+}
+
+.clickHover .dropdown-layer, .dorpdown:hover .dorpdown-layer, .dropdown:hover .dropdown-layer, .shortcut_btn:hover .dropdown-layer
+
+
